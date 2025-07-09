@@ -1,0 +1,13 @@
+fastapi          # The FastAPI framework
+uvicorn          # ASGI server to run the FastAPI app
+pydantic         # For data validation and settings management (comes with FastAPI)
+sqlalchemy       # For database ORM (if using SQL databases)
+databases        # Async database support (optional)
+psycopg2-binary  # PostgreSQL driver (if using PostgreSQL)
+aiomysql         # MySQL driver (if using MySQL)
+python-dotenv    # For environment variable management
+httpx            # For making HTTP requests (optional)
+pytest           # For testing
+pytest-asyncio   # For testing async code
+black            # Code formatter
+isort            # Import sorter
